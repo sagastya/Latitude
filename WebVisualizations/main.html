@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Latitude</title>
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/styles.css" rel="stylesheet" type="text/css"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default>
+          <div class="container-fluid"> 
+             <div class="navbar-header">
+               <a class="navbar-brand" href="#home">Latitude</a>
+             </div>
+             <div class="topnav-right"></div>
+                 <ul class="nav nav-pills pull-right" role="tablist" >
+                 <!-- <li class="active"><a href="#home">Latitude</a> -->
+
+                       <li class="dropdown">
+                       <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                       Plots<span class="caret"></span></a>
+                           <ul class="dropdown-menu" role="menu">
+                              <li><a href="#">Max Temperature</a></li>
+                              <li><a href="#">Humidity</a></li>
+                              <li><a href="#">Cloudiness</a></li>      
+                              <li><a href="#">Wind Speed</a></li>                                                 
+                           </ul>
+                        </li>
+                        <li><a href="#">Comparison</a></li>
+                        <li><a href="#">Data</a></li>
+                 </ul>
+             </div>
+          </div>
+        </nav>
+        <div class="container row"> 
+            <div class="col-sm-7">
+                <p>
+                    <h3>Summary: Latitude vs. X </h3>
+                </p>
+            </div>
+   
+            <div class="col-sm-5">
+                <figure>
+                    <img class="img-thumbnail img-fluid float-left" src="assets/images/Fig1.png" alt="Max Temperature">
+                </figure>
+                <figure>
+                    <img class="img-thumbnail img-fluid float-right" src="assets/images/Fig2.png" alt="Humidity">
+                </figure>  
+                <figure>
+                    <img class="img-thumbnail img-fluid float-left" src="assets/images/Fig3.png" alt="Cloudiness">
+                </figure>
+                <figure>
+                    <img class="img-thumbnail img-fluid float-right" src="assets/images/Fig4.png" alt="Wind Speed">      
+                </figure>
+            </div>
+        </div> 
+    </body>
+</html>
