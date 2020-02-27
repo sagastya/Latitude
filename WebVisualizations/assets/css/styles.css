@@ -36,16 +36,19 @@ body {
 
 #logo {
   /* Box-model */
-  height: 60px;
-  padding-top: 20px;
-  padding-bottom: 5px;
+  height: 60px;     
+  padding-top: 40px;
+  padding-bottom: 18px;  /* 5 */
+  padding-right: 20px;
+  padding-left: 20px;
+
 
   /* Positioning */
-  margin-left: 70px;
+  margin-left: 70px;    
   font-family: Georgia, Times, "Times New Roman", serif;
 
   /* Typography */
-  font-size: 24px;
+  font-size: 24px;     
   font-weight: bold;
   color: #fff;
 
@@ -111,17 +114,18 @@ body {
   font-family: Georgia, Times, "Times New Roman", serif;
 
   /* Typography */
-  font-size: 32px;
+  font-size: 24px;    /* 32 */
   font-weight: bold;
   color: #4aaaa5;
 }
 
 .description-content {
   /* Box-model */
-  padding: 30px;
+  padding: 30px;   
 
   /* Positioning */
   margin-top: 32px;
+  margin-left: 32px;
 
   /* Visual */
   background-color: #fff;
@@ -146,10 +150,11 @@ body {
   float: left;
 
   /* Box-model */
-  width: 200px;
-  height: 200px;
+  width: 200px;            
+  height: 200px;            
   margin-top: 20px;
-  margin-right: 20px;
+  margin-right: 20px;     
+
 }
 
 /* Description content media query */
@@ -163,6 +168,18 @@ body {
     /* Positioning */
     margin-top: 0;
   }
+}
+
+.image-content {                 /* added 2/26 */
+  /* Box-model */
+  padding: 30px;   /* 30px */
+
+  /* Positioning */
+  margin-top: 32px;    /* 32 */
+  margin-left: 40px;    /* 40 */
+
+  /* Visual */
+  background-color: #fff;
 }
 
 /* ----DESCRIPTION END---- */
@@ -179,7 +196,7 @@ body {
 
   /* Visual */
   background-color: #fff;
-}
+}                                           /* for media queries */
 
 .imageNav-header {
   /* Positioning */
@@ -217,6 +234,8 @@ body {
   text-align: center;
 }
 
+
+
 /* ----IMAGE NAV END---- */
 
 /* ----COMPARISON START---- */
@@ -241,13 +260,13 @@ body {
 /* ----FOOTER START---- */
 .footer {
   /* Positioning */
-  position: absolute;
-  bottom: 0;
+  position: absolute;         /* absolute */
+  bottom: 0;                  /* 0 */
 
   /* Box-model */
-  width: 100%;
-  height: 60px;
-  margin-top: 30px;
+  width: 100%;               /* 100% */     
+  height: 30px;              /* 60px */
+  margin-top: 15px;         /* 15px */
 
   /* Visual */
   background-color: #666;
@@ -263,7 +282,7 @@ body {
 
 .two-toned-footer-color {
   /* Box-model */
-  height: 6px;
+  height: 30px;               /* 6px  */
   padding-top: 3px;
 
   /* Visual */
