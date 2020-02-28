@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Latitude</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/styles.css" rel="stylesheet" type="text/css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-custom">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a id="logo" href="index.html">Latitude</a>
+        </div>
+        <div class="navbar-right-custom"></div>
+          <ul class="nav nav-pills pull-right" role="tablist" >
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#"> 
+                  plots<span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="visualizations/temperature.html">Max Temperature</a></li>
+                  <li><a href="visualizations/humidity.html">Humidity</a></li>
+                  <li><a href="visualizations/cloudiness.html">Cloudiness</a></li>      
+                  <li><a href="visualizations/windspeed.html">Wind Speed</a></li>                                                 
+                </ul>
+            </li>
+            <li><a href="comparison.html">Comparison</a></li>
+            <li><a href="data.html">Data</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container"> 
+      <section class="row">
+         <div class="col-md-2 images">
+            <h4 class="comparison-header">Comparison: Latitude vs. X </h4>
+            <p>Click any plot to get in-depth analysis.</p>
+            <figure class="figure">
+               <a href="visualizations/temperature.html"><img class="description-image img-fluid" src="assets/images/Fig1.png" alt="Max Temperature"></a>
+               <figcaption class="figure-caption comparison-header">vs. Max Temperature </figcaption>
+            </figure>
+            <figure class="figure">
+               <a href="visualizations/humidity.html"><img class="description-image img-fluid" src="assets/images/Fig2.png" alt="Humidity"></a>
+               <figcaption class="figure-caption comparison-header">vs. Humidity </figcaption>                    
+            </figure>
+         </div>
+         <div class="col-md-2 images">
+            <figure class="description-image">
+              <a href="visualizations/cloudiness.html"><img class="description-image img-fluid" src="assets/images/Fig3.png" alt="Cloudiness"></a>
+              <figcaption class="figure-caption comparison-header">vs. Cloudiness </figcaption>  
+            </figure>
+            <figure class="figure">
+               <a href="visualizations/windspeed.html"><img class="description-image img-fluid" src="assets/images/Fig4.png" alt="Wind Speed"></a>      
+               <figcaption class="figure-caption comparison-header">vs. Wind Speed </figcaption> 
+            </figure>
+         </div>
+      </section>
+    </div>
+    <footer class="footer two-toned-footer-color"> </footer>
+  </body>
+</html>
