@@ -21,3 +21,6 @@ The website at the top of every page has a navigation menu that:
   2. JavaScript
        Libraries:
         * jQuery
+  3. Python
+       Libraries:
+        * Pandas
