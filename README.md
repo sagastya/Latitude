@@ -2,7 +2,7 @@
 
 ## Latitude
 
-The purpose of this project is to construct a Visualization Dashboard using HTML, CSS and Bootstrap. The visualizations are from weather dataset consisting of:
+The purpose of this project is to construct a Visualization Dashboard using HTML, CSS and Bootstrap. The visualizations are from a weather dataset and the website consists of:
   *  Landing page
   *  Visualization pages
   *  Comparisons page
